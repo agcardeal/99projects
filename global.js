@@ -1,3 +1,5 @@
+window.onload =  function(){
+
 jQuery(document).ready(function($) {
 	
 	
@@ -67,5 +69,7 @@ jQuery(document).ready(function($) {
 		$('.posts').append('<div class="clear"></div>');
     } );
 } )( jQuery );
+
+}
 
 
