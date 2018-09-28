@@ -29,12 +29,7 @@ function hideMenu(el){
   jQuery(h).removeClass('open');
   jQuery(ham).removeClass('is-active');
 }
-  
-  exibirModal();
-
-}
-
-
+	
 // modal
 var exibirModal = function(){
 	$('#modal-inscreva-se').show(500);
@@ -43,5 +38,15 @@ var exibirModal = function(){
 var fecharModal = function(){
 	$('#modal-inscreva-se').fadeOut(500);
 };
+  
+  exibirModal();
+  $('#modal-inscreva-se .fechar').on('click', fecharModal);
+	
+	
 
-$('#modal-inscreva-se .fechar').on('click', fecharModal);
+}
+
+
+
+
+
