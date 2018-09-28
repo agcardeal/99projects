@@ -17,18 +17,18 @@ el.onclick = function() {
   }else{    
     hideMenu(nav);    
   }
-}
+};
 
 function showMenu(el){
   jQuery(el).addClass('open');
   jQuery(h).addClass('open');
-}
+};
 
 function hideMenu(el){
   jQuery(el).removeClass('open');
   jQuery(h).removeClass('open');
   jQuery(ham).removeClass('is-active');
-}
+};
 	
 // modal
 var exibirModal = function(){
