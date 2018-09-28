@@ -32,15 +32,15 @@ function hideMenu(el){
 	
 // modal
 var exibirModal = function(){
-	$('#modal-inscreva-se').show(500);
+	jQuery('#modal-inscreva-se').show(500);
 };
 
 var fecharModal = function(){
-	$('#modal-inscreva-se').fadeOut(500);
+	jQuery('#modal-inscreva-se').fadeOut(500);
 };
   
   exibirModal();
-  $('#modal-inscreva-se .fechar').on('click', fecharModal);
+  jQuery('#modal-inscreva-se .fechar').on('click', fecharModal);
 	
 	
 
